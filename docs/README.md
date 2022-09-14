@@ -48,6 +48,8 @@ Based on your choice in the previous step, require dependcies will be added to y
 
 ## Events Support
 
+### Define Event
+
 Right click on the project -> `Backbase` menu -> Define Event
 
 <img src="img/events/1-menu.png" />
@@ -68,6 +70,23 @@ Change the name according to the class generated in the previous step
 
 <img src="img/events/5-generated-code.png" />
 
+### Consume Events
+
+Make sure you have already created an event json file as described in define events. 
+If you are consuming events from other services, make sure you have copied the json contents from their repo to your own file.
+Generate POJO's either by running `mvn install` or clikcing `Generate Sources` from maven tab in IntelliJ
+
+Right click on the project -> `Backbase` menu -> Consume and Event
+
+<img src="img/events/consume/1-consume-events.png"  />
+
+This should open a box showing all the defined events. (Again whose code is generated, if not generate the code)
+
+<img src="img/events/consume/2-consume-events-box.png" />
+
+On selecting the class, it should generate a sample code for that
+
+<img src="img/events/consume/3-generated-code.png" />
 
 ## Create a New Behaviour Extension Project
 
