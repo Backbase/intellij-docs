@@ -76,7 +76,7 @@ Make sure you have already created an event json file as described in define eve
 If you are consuming events from other services, make sure you have copied the json contents from their repo to your own file.
 Generate POJO's either by running `mvn install` or clikcing `Generate Sources` from maven tab in IntelliJ
 
-Right click on the project -> `Backbase` menu -> Consume and Event
+Right click on the project -> `Backbase` menu -> Consume an Event
 
 <img src="img/events/consume/1-consume-events.png"  />
 
